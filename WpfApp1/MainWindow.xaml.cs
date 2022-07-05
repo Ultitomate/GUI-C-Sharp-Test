@@ -23,6 +23,10 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            if (button1.IsMouseOver)
+            {
+                button1.Content = "Maus";
+            }
         }
     }
 }
